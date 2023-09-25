@@ -1,0 +1,4 @@
+Day 57: Templating with Jinja in Flask Applications
+
+And in order to do that, we're going to be learning about URL building and templating with Jinja. So very often when you're creating a website, you'll get cases where you actually don't want to create the page entirely from scratch. For example,
+if you had a blog and you wanted to have several different posts in the blog, you don't want to create a separate HTML file for each blog post. So in that case, it's really helpful to have a templating language where you can replace bits of that blog with dynamic content. And that's where Jinja comes in. This is a templating language built for Python, and it's going to allow us to create the general layout of our blog, the styling and the structure, and then to replace the content, for example, the title or the subtitle or the body with dynamic content that's generated each time we load a specific page
